@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: lightgreen;
+}
+#main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}    
+#mainH {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size: 70px;
+    padding: 10px;
+    margin: 0;
+}
+.info {
+    font-size: 20px;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+#linkcon {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pList {
+    list-style: none;
+    padding: 5px;
+    border: inset black;
+    margin: 10px;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+.pList:hover {
+    border: outset grey;
+    box-shadow: 10px 5px 5px black;
+    width: 95vh;
+}
